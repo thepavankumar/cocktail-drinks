@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import SingleCocktail from "./pages/SingleCocktail";
 import Error from "./pages/Error";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/cocktail/:id" element={<SingleCocktail/>}></Route>
         <Route path="*" element={<Error/>}> </Route>
       </Routes>
+      <Footer/>
       </BrowserRouter>
   );
 }
