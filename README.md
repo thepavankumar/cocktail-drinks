@@ -72,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### `API DETAILS:`
 https://www.thecocktaildb.com/api.php
+
+### `ONLINE DEMO`
+https://cocktaildrinks.vercel.app/
